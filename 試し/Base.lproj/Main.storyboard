@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="9yS-ph-cRh">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="KbF-1b-ej4">
+            <objects>
+                <viewController id="t6Y-a0-jhi" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jlc-9x-GxI"/>
+                        <viewControllerLayoutGuide type="bottom" id="xPY-9D-V1Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tFU-WJ-Mak">
+                        <rect key="frame" x="0.0" y="0.0" width="550" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ANK-KD-mPC">
+                                <rect key="frame" x="1" y="0.0" width="480" height="320"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="く1.png" translatesAutoresizingMaskIntoConstraints="NO" id="196-ds-XaA">
+                                <rect key="frame" x="74" y="-32" width="410" height="384"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white2.png" translatesAutoresizingMaskIntoConstraints="NO" id="hRz-6g-9Bl">
+                                <rect key="frame" x="-14" y="0.0" width="112" height="326"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white2.png" translatesAutoresizingMaskIntoConstraints="NO" id="wO3-ep-XIu">
+                                <rect key="frame" x="0.0" y="-5" width="485" height="14"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Asr-gX-ydh">
+                                <rect key="frame" x="8" y="283" width="485" height="55"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white2.png" translatesAutoresizingMaskIntoConstraints="NO" id="UvV-ps-J2W">
+                                <rect key="frame" x="94" y="8" width="485" height="14"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nex1t.png" translatesAutoresizingMaskIntoConstraints="NO" id="86Q-mp-Yxg">
+                                <rect key="frame" x="49" y="-1" width="44" height="69"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ren-tF-dec">
+                                <rect key="frame" x="47" y="0.0" width="46" height="68"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="next" destination="t6Y-a0-jhi" eventType="touchUpInside" id="AG4-B5-ZYP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fji-xf-kTA">
+                                <rect key="frame" x="1" y="0.0" width="49" height="69"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back" destination="t6Y-a0-jhi" eventType="touchUpInside" id="cbO-XF-kex"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RRj-c4-i2J">
+                                <rect key="frame" x="14" y="76" width="65" height="26"/>
+                                <state key="normal" title="button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="red" destination="t6Y-a0-jhi" eventType="touchUpInside" id="Old-lz-qsC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cDo-Vt-Ofx">
+                                <rect key="frame" x="14" y="130" width="65" height="26"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="blue" destination="t6Y-a0-jhi" eventType="touchUpInside" id="jVE-Cd-LVy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uki-9P-NPZ">
+                                <rect key="frame" x="14" y="103" width="65" height="26"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="green" destination="t6Y-a0-jhi" eventType="touchUpInside" id="S2a-53-G55"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0X-kC-kye">
+                                <rect key="frame" x="14" y="158" width="65" height="26"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="yellow" destination="t6Y-a0-jhi" eventType="touchUpInside" id="jqX-VG-yhF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uXG-Ot-6LT">
+                                <rect key="frame" x="14" y="187" width="65" height="26"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="black" destination="t6Y-a0-jhi" eventType="touchUpInside" id="3KT-op-Ei1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nK3-h3-DgN">
+                                <rect key="frame" x="14" y="216" width="65" height="26"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="white" destination="t6Y-a0-jhi" eventType="touchUpInside" id="eF3-sN-KGb"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white2.png" translatesAutoresizingMaskIntoConstraints="NO" id="rIJ-Sa-Pkx">
+                                <rect key="frame" x="-5" y="317" width="485" height="7"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="PsS-70-E0F">
+                                <rect key="frame" x="4" y="-1" width="44" height="69"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white.png" translatesAutoresizingMaskIntoConstraints="NO" id="bSb-4H-v6n">
+                                <rect key="frame" x="9" y="216" width="73" height="26"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="kCW-ch-TSJ">
+                                <rect key="frame" x="8" y="130" width="73" height="26"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="green.png" translatesAutoresizingMaskIntoConstraints="NO" id="o9Q-mX-HX2">
+                                <rect key="frame" x="10" y="103" width="73" height="26"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="0il-Uw-H3q">
+                                <rect key="frame" x="9" y="158" width="73" height="26"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="black.png" translatesAutoresizingMaskIntoConstraints="NO" id="rSu-pV-AfA">
+                                <rect key="frame" x="9" y="187" width="73" height="26"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="red.png" translatesAutoresizingMaskIntoConstraints="NO" id="gen-oZ-mUN">
+                                <rect key="frame" x="10" y="76" width="73" height="26"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvx-rG-XOR">
+                                <rect key="frame" x="14" y="283" width="69" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9yS-ph-cRh" kind="modal" id="8ow-Nb-2yW"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2P-eu-tCB">
+                                <rect key="frame" x="110" y="50" width="260" height="230"/>
+                                <color key="backgroundColor" red="0.89861686860000001" green="0.89277084029999998" blue="0.84755909200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3w-dd-bDf">
+                                <rect key="frame" x="201" y="117" width="78" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="tweet">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tweet" destination="t6Y-a0-jhi" eventType="touchUpInside" id="U8y-tl-77L"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXY-Ld-cgy">
+                                <rect key="frame" x="208" y="166" width="69" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="LINE">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="line" destination="t6Y-a0-jhi" eventType="touchUpInside" id="ObE-jP-LmY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GrR-zl-roF">
+                                <rect key="frame" x="30" y="252" width="38" height="30"/>
+                                <state key="normal" title="share">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="share" destination="t6Y-a0-jhi" eventType="touchUpInside" id="tKa-Uk-Bgn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xeV-cH-cJ7">
+                                <rect key="frame" x="201" y="229" width="80" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="cancel">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="alback" destination="t6Y-a0-jhi" eventType="touchUpInside" id="YQW-J4-TzX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pWa-8H-dGZ">
+                                <rect key="frame" x="181" y="70" width="118" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="FaceBook">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="face" destination="t6Y-a0-jhi" eventType="touchUpInside" id="ZqK-OZ-o9d"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white2.png" translatesAutoresizingMaskIntoConstraints="NO" id="A2b-Z3-YMK">
+                                <rect key="frame" x="467" y="-6" width="112" height="326"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="white2.png" translatesAutoresizingMaskIntoConstraints="NO" id="JUL-yV-oyp">
+                                <rect key="frame" x="18" y="312" width="485" height="14"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i0C-gB-phP">
+                                <rect key="frame" x="498" y="131" width="50" height="50"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="shou" destination="t6Y-a0-jhi" eventType="touchUpInside" id="QZB-h0-abw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeY-7h-CeC">
+                                <rect key="frame" x="498" y="87" width="50" height="50"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tyu" destination="t6Y-a0-jhi" eventType="touchUpInside" id="MRj-uE-NEA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nwE-wj-SOI">
+                                <rect key="frame" x="499" y="37" width="50" height="50"/>
+                                <state key="normal">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dai" destination="t6Y-a0-jhi" eventType="touchUpInside" id="dbG-78-ITn"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="big.png" translatesAutoresizingMaskIntoConstraints="NO" id="Fda-MP-fHO">
+                                <rect key="frame" x="504" y="41" width="41" height="41"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tyu.png" translatesAutoresizingMaskIntoConstraints="NO" id="Dpz-Uu-ee8">
+                                <rect key="frame" x="509" y="96" width="31" height="31"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="small.png" translatesAutoresizingMaskIntoConstraints="NO" id="MfO-Rp-Xg7">
+                                <rect key="frame" x="514" y="142" width="21" height="21"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Middle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kb-AW-kR1">
+                                <rect key="frame" x="480" y="170" width="65" height="27"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="thinness↓" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Zs-0T-JiB">
+                                <rect key="frame" x="461" y="237" width="84" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="YPe-Re-1h8">
+                                <rect key="frame" x="459" y="258" width="88" height="31"/>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="550" height="320"/>
+                    <connections>
+                        <outlet property="LINE" destination="mXY-Ld-cgy" id="GF2-jP-69g"/>
+                        <outlet property="aback" destination="xeV-cH-cJ7" id="kZw-J0-lHI"/>
+                        <outlet property="back1" destination="PsS-70-E0F" id="nED-Z2-Zpj"/>
+                        <outlet property="backhaikei" destination="B2P-eu-tCB" id="bnH-aQ-vfg"/>
+                        <outlet property="black" destination="uXG-Ot-6LT" id="Ied-aT-dyH"/>
+                        <outlet property="blue" destination="cDo-Vt-Ofx" id="bjM-Yh-bVO"/>
+                        <outlet property="canvas" destination="ANK-KD-mPC" id="mpp-eN-Ai4"/>
+                        <outlet property="face" destination="pWa-8H-dGZ" id="XkH-2R-Qev"/>
+                        <outlet property="green" destination="Uki-9P-NPZ" id="KJF-eb-pSf"/>
+                        <outlet property="imageview" destination="196-ds-XaA" id="pS2-cz-vG8"/>
+                        <outlet property="mozilabel" destination="4kb-AW-kR1" id="1aF-x6-HYu"/>
+                        <outlet property="next1" destination="86Q-mp-Yxg" id="VFl-LW-P77"/>
+                        <outlet property="red" destination="RRj-c4-i2J" id="2Y2-xI-QFb"/>
+                        <outlet property="slider" destination="YPe-Re-1h8" id="USr-vF-Qoz"/>
+                        <outlet property="twitter" destination="D3w-dd-bDf" id="4tv-KO-Mj9"/>
+                        <outlet property="white" destination="nK3-h3-DgN" id="3Wu-6n-IRK"/>
+                        <outlet property="white21" destination="UvV-ps-J2W" id="vem-y5-jGx"/>
+                        <outlet property="yello" destination="h0X-kC-kye" id="VoH-a4-R9C"/>
+                        <outlet property="yohaku" destination="Asr-gX-ydh" id="T4P-c0-V0X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wQB-w4-cS5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1413" y="-154"/>
+        </scene>
+        <!--Illustration View Controller-->
+        <scene sceneID="8mo-Sp-dgV">
+            <objects>
+                <viewController id="9yS-ph-cRh" customClass="IllustrationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dft-yD-EfO"/>
+                        <viewControllerLayoutGuide type="bottom" id="awt-gg-3y5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a03-Ak-pg9">
+                        <rect key="frame" x="0.0" y="0.0" width="2000" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="600.png" translatesAutoresizingMaskIntoConstraints="NO" id="pkz-Ta-g8p">
+                                <rect key="frame" x="480" y="-1" width="480" height="321"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="600.png" translatesAutoresizingMaskIntoConstraints="NO" id="XuN-rA-Fl5">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="321"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hosi.png" translatesAutoresizingMaskIntoConstraints="NO" id="9w6-QR-C9o">
+                                <rect key="frame" x="-331" y="-95" width="1226" height="564"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTw-ot-Wwg">
+                                <rect key="frame" x="0.0" y="49" width="224" height="271"/>
+                                <connections>
+                                    <action selector="illustrationButton3" destination="9yS-ph-cRh" eventType="touchUpInside" id="4sv-nS-0BV"/>
+                                    <segue destination="t6Y-a0-jhi" kind="modal" id="KzN-EY-HhG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="59y-nd-Nhe">
+                                <rect key="frame" x="276" y="62" width="265" height="258"/>
+                                <connections>
+                                    <action selector="illustrationButton2" destination="9yS-ph-cRh" eventType="touchUpInside" id="Q8f-Gv-k1B"/>
+                                    <segue destination="t6Y-a0-jhi" kind="modal" id="ugL-N5-xen"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y49-1p-Atx">
+                                <rect key="frame" x="256" y="80" width="224" height="240"/>
+                                <connections>
+                                    <action selector="illustrationButton4" destination="9yS-ph-cRh" eventType="touchUpInside" id="h6w-8g-bPz"/>
+                                    <segue destination="t6Y-a0-jhi" kind="modal" id="hsX-re-jWz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kvr-qH-i49">
+                                <rect key="frame" x="0.0" y="49" width="224" height="272"/>
+                                <connections>
+                                    <action selector="illustrationButton1" destination="9yS-ph-cRh" eventType="touchUpInside" id="F5g-YT-RqM"/>
+                                    <segue destination="t6Y-a0-jhi" kind="modal" id="I4w-iy-w4a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hem-Ok-lHW">
+                                <rect key="frame" x="0.0" y="49" width="224" height="272"/>
+                                <connections>
+                                    <action selector="illustrationButton5" destination="9yS-ph-cRh" eventType="touchUpInside" id="lPI-Hu-0zU"/>
+                                    <segue destination="t6Y-a0-jhi" kind="modal" id="Wjz-cY-oXf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUS-7e-xbE">
+                                <rect key="frame" x="19" y="4" width="46" height="62"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back" destination="9yS-ph-cRh" eventType="touchUpInside" id="Cje-fS-R2M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oE-l2-4lG">
+                                <rect key="frame" x="278" y="62" width="255" height="236"/>
+                                <connections>
+                                    <action selector="illustrationButton6" destination="9yS-ph-cRh" eventType="touchUpInside" id="jCz-aT-NAX"/>
+                                    <segue destination="t6Y-a0-jhi" kind="modal" id="WQ2-sR-1xf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y1w-Z9-6PU">
+                                <rect key="frame" x="502" y="4" width="46" height="62"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="next" destination="9yS-ph-cRh" eventType="touchUpInside" id="S3A-6b-ww8"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="Hy8-ab-sVN">
+                                <rect key="frame" x="20" y="0.0" width="44" height="69"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nex1t.png" translatesAutoresizingMaskIntoConstraints="NO" id="s9B-RO-EBb">
+                                <rect key="frame" x="505" y="0.0" width="44" height="69"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ひまわり　１笑顔イラスト.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tsd-OX-5cf">
+                                <rect key="frame" x="570" y="49" width="275" height="273"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="飛行機　１笑顔イラスト.png" translatesAutoresizingMaskIntoConstraints="NO" id="hVo-8Y-OlT">
+                                <rect key="frame" x="1117" y="42" width="280" height="270"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="車　１笑顔イラスト.png" translatesAutoresizingMaskIntoConstraints="NO" id="ENC-TD-9rg">
+                                <rect key="frame" x="1394" y="49" width="265" height="282"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ゾウ　１笑顔イラスト.png" translatesAutoresizingMaskIntoConstraints="NO" id="23A-id-1Qi">
+                                <rect key="frame" x="256" y="40" width="287" height="280"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="雪だるま全身　１笑顔イラスト.png" translatesAutoresizingMaskIntoConstraints="NO" id="yHo-MP-ezC">
+                                <rect key="frame" x="875" y="49" width="271" height="272"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Image selection" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4uy-A5-1xn">
+                                <rect key="frame" x="165" y="15" width="235" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HiraKakuProN-W3" family="Hiragino Kaku Gothic ProN" pointSize="28"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ライオン　１笑顔イラスト.png" translatesAutoresizingMaskIntoConstraints="NO" id="8TW-yA-uBL">
+                                <rect key="frame" x="-13" y="45" width="261" height="270"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="2000" height="320"/>
+                    <connections>
+                        <outlet property="back" destination="Hy8-ab-sVN" id="1x3-oj-R3n"/>
+                        <outlet property="button" destination="cUS-7e-xbE" id="uf7-FD-xJy"/>
+                        <outlet property="button1" destination="y1w-Z9-6PU" id="Buh-ho-Gfb"/>
+                        <outlet property="illustration1" destination="8TW-yA-uBL" id="v0W-CV-sOA"/>
+                        <outlet property="illustration2" destination="23A-id-1Qi" id="pIp-3f-Yow"/>
+                        <outlet property="illustration3" destination="Tsd-OX-5cf" id="3y8-B0-loq"/>
+                        <outlet property="illustration4" destination="yHo-MP-ezC" id="4ju-Dw-lk6"/>
+                        <outlet property="illustration5" destination="hVo-8Y-OlT" id="sNb-4G-fFA"/>
+                        <outlet property="illustration6" destination="ENC-TD-9rg" id="TFF-tf-fqZ"/>
+                        <outlet property="illustrationButton1" destination="Kvr-qH-i49" id="JNK-Hd-uKR"/>
+                        <outlet property="illustrationButton2" destination="59y-nd-Nhe" id="LUF-LY-BfL"/>
+                        <outlet property="illustrationButton3" destination="hTw-ot-Wwg" id="u3j-wI-dxS"/>
+                        <outlet property="illustrationButton4" destination="Y49-1p-Atx" id="Nxt-ys-VfI"/>
+                        <outlet property="illustrationButton5" destination="Hem-Ok-lHW" id="ouG-uB-fyn"/>
+                        <outlet property="illustrationButton6" destination="3oE-l2-4lG" id="MP9-Q8-oOS"/>
+                        <outlet property="next" destination="s9B-RO-EBb" id="qSF-Sy-kBX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Eu-2Z-gTX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1396" y="339"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="600.png" width="600" height="600"/>
+        <image name="back.png" width="64" height="64"/>
+        <image name="big.png" width="300" height="300"/>
+        <image name="black.png" width="295" height="131"/>
+        <image name="blue.png" width="295" height="131"/>
+        <image name="green.png" width="295" height="131"/>
+        <image name="hosi.png" width="1000" height="1000"/>
+        <image name="nex1t.png" width="64" height="64"/>
+        <image name="red.png" width="295" height="131"/>
+        <image name="small.png" width="100" height="100"/>
+        <image name="tyu.png" width="200" height="200"/>
+        <image name="white.png" width="295" height="131"/>
+        <image name="white2.png" width="1024" height="1024"/>
+        <image name="yellow.png" width="295" height="131"/>
+        <image name="く1.png" width="500" height="500"/>
+        <image name="ひまわり　１笑顔イラスト.png" width="441" height="581"/>
+        <image name="ゾウ　１笑顔イラスト.png" width="442" height="384"/>
+        <image name="ライオン　１笑顔イラスト.png" width="468" height="554"/>
+        <image name="車　１笑顔イラスト.png" width="426" height="369"/>
+        <image name="雪だるま全身　１笑顔イラスト.png" width="456" height="738"/>
+        <image name="飛行機　１笑顔イラスト.png" width="469" height="326"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="I4w-iy-w4a"/>
+    </inferredMetricsTieBreakers>
+</document>
